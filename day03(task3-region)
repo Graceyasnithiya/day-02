@@ -15,7 +15,7 @@ xhr.onload = function () {
     var response = JSON.parse(xhr.responseText);
       
     for (var i = 0; i < response.length; i++) {
-      console.log(response[i].name.official);
+      console.log(response[i].region);
     }
   } else {
     
