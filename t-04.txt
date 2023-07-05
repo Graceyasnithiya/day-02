@@ -1,0 +1,104 @@
+a.Print odd numbers in an array.
+
+const numbers = [-5, -2, -1, 0, 1, 3, 4, 7];
+const oddNumbers = [];
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 !== 0) {
+        oddNumbers.push(numbers[i]);
+    }
+}
+
+console.log(oddNumbers);
+
+b.Convert all the strings to title caps in a string array.
+
+function toTitleCase(str) {
+  str = str.toLowerCase().split(' ');
+  for (var i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+  }
+  return str.join(' ');
+}
+console.log(toTitleCase("WELCOME TO W3DOCS"));
+
+c.sum of all numbers in an  array;
+var arr = [1,2,3,4,5,6,7,8,9,10];
+    
+    var sum = 0;
+    
+    for(var i = 0; i < arr.length; i++){
+        sum += arr[i];
+         continue;
+        
+       }
+   
+   console.log(sum);
+d.Return all the prime numbers in an array;
+const array = [-5, -3, -2, -1,0,1,2,3,4,5,6,7]; 
+
+function isPrime(num) {
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return num > 1;
+}
+
+console.log(array.filter(isPrime));
+
+e.Return all the palindromes in an array;
+
+
+
+
+f.Return median of two sorted arrays of the same size.
+
+var arr1 = [1,2,3,];
+var arr2 = [6,7,8];
+ 
+ var newarr = arr1.concat(arr2);
+ 
+ console.log(newarr);
+ 
+ var median = arr1[1] +  arr2[1] / 2;
+  
+  console.log(median);
+
+g.Remove duplicates from an array;
+
+ let arr = ["scale", "happy", "strength",
+            "peace", "happy", "happy"];
+ 
+    function removeDuplicates(arr) {
+        let unique = [];
+        for(i=0; i < arr.length; i++){ 
+            if(unique.indexOf(arr[i]) === -1) { 
+                unique.push(arr[i]); 
+            } 
+        }
+        return unique;
+    }
+ 
+    console.log(removeDuplicates(arr));
+
+h.Rotate an array by k times.
+var cart = ["denim shirt","cargo pant","hoodie", "shirt"];
+ 
+ //rotate the array to the right;
+ 
+ console.log(cart.pop());
+ 
+ console.log(cart.push("toned jeans"));
+ 
+ //rotate array to the left;
+ 
+ console.log(cart.shift());
+ 
+ console.log(cart.unshift("whitecanvas"));
+
+
+
+
+

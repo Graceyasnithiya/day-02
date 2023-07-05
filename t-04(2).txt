@@ -1,0 +1,60 @@
+a.Print odd numbers in an array.
+
+let arr = [1,2,3,4,5,6,7,8,9,10,11,12];
+
+let odds = arr.filter(n => n%2);
+
+console.log(odds);
+
+b.Convert all the strings to title caps in a string array.
+
+function toTitleCase(str) {
+  str = str.toLowerCase().split(' ');
+  for (var i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+  }
+  return str.join(' ');
+}
+
+console.log(toTitleCase("WELCOME TO W3DOCS"));
+
+c.return all the sum of array
+
+var numbers = [1, 4, 2, 10, 6, 6];
+var  sum     = numbers.reduce(function(a, b) { return a + b; }, 0);
+
+console.log(sum);
+
+d.Return all the prime numbers in an array
+
+const newArray = [13, 5, 25, 9, 80];
+const myPrimenum = newArray.filter(num => {
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return num !== 1;
+});
+console.log(myPrimenum);
+
+e.Return all the palindromes in an array
+
+const arr = ['carecar', 1344, 12321, 'did', 'cannot'];
+const isPalindrome = el => {
+   const str = String(el);
+   let i = 0;
+   let j = str.length - 1;
+   while(i < j) {
+      if(str[i] === str[j]) {
+         i++;
+         j--;
+      }
+      else {
+         return false;
+      }
+   }
+   return true;
+};
+const findPalindrome = arr => {
+   return arr.filter(el => isPalindrome(el));
+};
+console.log(findPalindrome(arr));
