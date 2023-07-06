@@ -1,0 +1,51 @@
+let myResume={
+    "basics": {
+      "name": "GRACEYAS M",
+      "email": "graceyasgracy@gamil.com",
+      "phone": 9384428588,
+      "degree": "B.E",
+      "location": {
+        "address": "no-93/201,kadambattur main road,old tirupachur",
+        "postalCode": 631203,
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+       
+    "work": [
+      {
+        "company": "TCS",
+        "position": "developer Executive",
+        "startDate": "17-02-2022",
+       "summary": "i am the developer executive handling various task and gaining lots of experience",
+      },
+    ],
+    "education": [
+      {
+        "institution": "sri venkateshwara College Of Engineering",
+        "department": "ECE",
+        "studyType": "fulltime",
+        "batch start year": 2017,
+        "batch end year": 2021,
+        "gpa": 7.4,
+      }
+    ],
+    "skills": [
+      {
+        "name": "python,javascript",
+        "level": "beginer",
+        
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ],
+    "interests": [
+      {
+        "name": "Gym,business",
+      }
+    ]
+  }
+  console.log(myResume);
