@@ -1,0 +1,12 @@
+class Uberprice {
+    constructor(distance) {
+      this.distance = distance;
+      
+    }
+    getprice() {
+      return (this.distance ) *20;
+    }
+  }
+  
+  let Object = new Uberprice(10);
+  console.log(Object.getprice())
