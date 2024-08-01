@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.mytodolist{
+  height: 500px;
+  width: 700px;
+  justify-content: center;
+  position: relative;
+  left: 450px;
+  background-color: antiquewhite;
+  padding: 5px;
+  border: solid black;
+  margin: 5px;
+}
+.heading{
+  color: black;
+  text-shadow: 2cap;
+  position: relative;
+  left: 200px;
+}
+.input-box{
+  height: 30px;
+  width: 300px;
+  position: relative;
+  left: 150px;
+  
+}
+
+.add-btn{
+  position: relative;
+  left: 170px;
+  top: 3px;
+ 
+}
+
+.add-btn:hover{
+    background-color: greenyellow;
+
+}
+
+.mytodos{
+  position: relative;
+  left: 100px;
+  top: 50px;
+  padding: 2px;
+  border: 5px solid black;
+  margin-bottom: 10px;
+  height: 70px;
+  width: 500px;
+}
+.text{
+  color: black;
+  position: relative;
+  left: 60px;
+  
+}
+.text:hover{
+  color: blueviolet;
+}
+
+.delete-btn{
+  position: relative;
+  left: 60px;
+  top: 4px;
+  padding: 10px 10pxpx;
+  border: 1px solid black;
+}
+
+.delete-btn:hover{
+
+  background-color: crimson;
+
+}
